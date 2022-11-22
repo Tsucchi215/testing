@@ -1,6 +1,10 @@
+import Test from "./Test";
+
 function App() {
   return (
-    <div className="bg-blue-500">hello react</div>
+    <div className="bg-blue-500">
+      <Test />
+    </div>
   );
 }
 
